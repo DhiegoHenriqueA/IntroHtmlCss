@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-spacing: 0;
+    width: 600px;
+    font-size: 12px;
+    font-family: Arial;
+  }
+  
+  th {
+      background-color: #78b200 ;
+      color: white;
+  }
+  th, td {
+    text-align: left;
+    padding: 14px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ebf5ec;
+  }
+
+  .cidade {
+      color: #0D5188;
+  }
+
+  .posicao {
+    width: 5%;
+  }
+
+  .quantidade {
+      width: 15%;
+  }
