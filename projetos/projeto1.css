@@ -33,21 +33,22 @@ body {
     padding: 0.8vh 0 0.8vh 0;
     grid-area: header;
     height: 8.4vh;
-    border-bottom:0.1px solid rgb(71, 69, 69);
+    border-bottom:0.1px solid green;
+
 }
 .sidebar {
     grid-area: sidebar;
     height: 79vh;
     justify-content: center;
-    border:0.1px solid rgb(48, 46, 46);}
+    border:0.1px solid green}
 .content {
     grid-area: content;
     height: 79vh;
-    border:0.1px solid rgb(48, 46, 46);}
+    border:0.1px solid green}
 .footer {
     grid-area: footer;
     height: 10vh;
-    border:0.1px solid rgb(48, 46, 46);}
+    border:0.1px solid green}
 
 .avatar {
     width: 10%;
